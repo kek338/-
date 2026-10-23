@@ -2,6 +2,10 @@
 
 一个从两张产品实拍图生成电商视觉故事的工作台：1 张主图、9 张分别展示不同卖点的副图。
 
+## Windows 直接下载
+
+下载仓库根目录的 `StoryStudio-Windows-DoubleClick.zip`，解压后双击其中的 `StoryStudio-Windows-DoubleClick.html`，用 Edge 或 Chrome 打开。压缩包内有简短中文使用说明。这个版本不需要安装依赖或启动服务；生成图片需要联网和可用的 OpenAI API 密钥。
+
 ## 本地运行
 
 需要 Node.js 20 或更新版本，以及可调用 OpenAI 图片 API 的密钥。
