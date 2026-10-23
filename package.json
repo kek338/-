@@ -1,0 +1,27 @@
+{
+  "name": "product-story-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build:single": "node scripts/build-single-html.mjs"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.6",
+    "openai": "^6.7.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.3"
+  }
+}
